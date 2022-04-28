@@ -166,6 +166,11 @@ h1 {
     font-size: 2.5em;
 }
 
+/* Products list */
+ul {
+    list-style-position: inside;
+}
+
 /*TABLE*/
 table {
     border: 0.1vw solid red;
