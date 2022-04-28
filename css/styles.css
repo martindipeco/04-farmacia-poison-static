@@ -283,6 +283,9 @@ footer {
 /* BREAKPOINTS*/
 /* breakpoint for MOBILE devices */
 @media screen and (max-width:600px) {
+    #prox {
+        font-size: 1.1em;
+    }
     .nav-bar-resp a:not(:first-child) {display: none;}
     .nav-bar-resp a.icon {
         float: right;
