@@ -1,7 +1,7 @@
 /* Estilos de la Farmacia Poison */
 /* Estética intencionadamente oscura */
 /* Todas las imágenes viradas al sepia, incluso el GMap */
-/* Fondo casi negro y tipografía roja - Stranger Things*/
+/* Fondo casi negro y tipografía roja - Stranger Things, Dr Strange*/
 /* Tipografía simil art nouveau, estilo de las primeras farmacias de B.A. */
 /* TODO: cambiar tipografía para textos largos */
 /* Responsive Top Navigation Menu adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
@@ -166,6 +166,13 @@ h1 {
     font-size: 2.5em;
 }
 
+/* Products list */
+ul {
+    font-family: Garamond, Times;
+    list-style-position: inside;
+    list-style-type: circle;
+}
+
 /*TABLE*/
 table {
     border: 0.1vw solid red;
@@ -246,6 +253,12 @@ tbody tr:nth-of-type(odd) {
     36% { transform: translateX( 0 ); }
     39% { transform: translateX( -700px ); }
     100% { transform: translateX( -700px ); }
+}
+
+.hr-prods {
+    color:red;
+    margin-right:20vw;
+    margin-left:20vw;
 }
 
 .hr-footer {
