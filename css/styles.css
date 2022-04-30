@@ -305,12 +305,15 @@ footer {
     }
     .cardpart {
         background-image: url( ../assets/prod-arsenico-400x288.jpg );
+        background-repeat:no-repeat;
     }
     .cardpart.card2 {
         background-image: url( ../assets/prod-cianuro-400x288.jpg );
+        background-repeat:no-repeat;
     }
     carpart.card3 {
         background-image: url(../assets/prod-cicuta-400x288.jpg );
+        background-repeat:no-repeat;
     }
 }
 
