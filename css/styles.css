@@ -221,8 +221,8 @@ tbody tr:nth-of-type(odd) {
 
 .cardpart {
     position: absolute;
-    /*top: 0;
-    left: 0;*/
+    top: 0;
+    left: 0;
     display: flex;
     justify-content: center;
     z-index: 7;
