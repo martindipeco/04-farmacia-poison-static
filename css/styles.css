@@ -306,6 +306,12 @@ footer {
     .cardpart {
         background-image: url( ../assets/prod-arsenico-400x288.jpg );
     }
+    .cardpart.card2 {
+        background-image: url( ../assets/prod-cianuro-400x288.jpg );
+    }
+    carpart.card3 {
+        background-image: url(../assets/prod-cicuta-400x288.jpg );
+    }
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
