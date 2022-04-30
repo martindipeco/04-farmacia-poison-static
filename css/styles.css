@@ -311,7 +311,7 @@ footer {
         background-image: url( ../assets/prod-cianuro-400x288.jpg );
         background-repeat:no-repeat;
     }
-    cardpart.card3 {
+    .cardpart.card3 {
         background-image: url(../assets/prod-cicuta-400x288.jpg );
         background-repeat:no-repeat;
     }
