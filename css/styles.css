@@ -345,15 +345,6 @@ footer {
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: 33.33% 33.33% 33.33%;
     }
-    /* nav bar
-    #nav-bar {
-        width: 95vw;
-        margin: 1vw;
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-    }
-    */
     footer {
         display: flex;
         text-align: center;
@@ -369,13 +360,4 @@ footer {
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 50% 50%;
     }
-    /*#nav-bar {
-        TODO: delete
-        width: 95vw;
-        margin: 1vw;
-        display: flex;
-        text-align: center;
-        justify-content: space-around;
-    }
-    */
 }
