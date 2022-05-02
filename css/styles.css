@@ -256,7 +256,7 @@ tbody tr:nth-of-type(odd) {
 
 .hr-prods {
     color:red;
-    background-color: red;
+    width: 30vw;
     margin-right:20vw;
     margin-left:20vw;
 }
