@@ -256,12 +256,14 @@ tbody tr:nth-of-type(odd) {
 
 .hr-prods {
     color:red;
+    background-color: red;
     margin-right:20vw;
     margin-left:20vw;
 }
 
 .hr-footer {
     margin-top: 5vw;
+    background-color: red;
     color: red;
     width: 70vw;
 }
