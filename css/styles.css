@@ -6,13 +6,21 @@
 /* Excepto para textos largos, cambia a Times y color más claro para mejorar legibilidad, junto con un tamaño mayor */
 
 
-
 body {
     background-color : #212121;
     font-family: 'Amarante', Times;
     color: Red;
     padding: 0px;
     margin: 0px;
+}
+
+/* Texto "sobre nosotros" en Index */
+.about-us p {
+    font-family: Times;
+    color: Tomato;
+    font-size: 2em;
+    margin-right: 10vw;
+    margin-right: 10vw;
 }
 
 /* Main grid containing 3 rows: navigation menu, main, footer */
