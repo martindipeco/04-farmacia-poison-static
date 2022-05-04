@@ -253,6 +253,10 @@ tbody tr:nth-of-type(odd) {
     100% { transform: translateX( -700px ); }
 }
 
+.item-prod {
+    border-bottom: solid red;
+}
+
 /*DEPRECATED - messing with margins*/
 /*TODO: delete*/
 /*
