@@ -3,8 +3,8 @@
 /* Todas las imágenes viradas al sepia, incluso el GMap */
 /* Fondo casi negro y tipografía roja - Stranger Things, Dr Strange*/
 /* Tipografía simil art nouveau, estilo de las primeras farmacias de B.A. */
-/* TODO: cambiar tipografía para textos largos */
-/* Responsive Top Navigation Menu adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
+/* Excepto para textos largos, cambia a Times y color más claro para mejorar legibilidad, junto con un tamaño mayor */
+
 
 
 body {
@@ -68,6 +68,7 @@ body {
 */
 
 /* Top navigation responsive menu */
+/* Responsive Top Navigation Menu adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
 .nav-bar-resp {
     background-color: #001a00; /* dark green */
     font-weight: bold;
