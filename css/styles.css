@@ -195,8 +195,7 @@ tbody tr:nth-of-type(odd) {
 
 /* SLIDES */
 /* CSS Slider adapted from https://codepen.io/flatpixels/pen/qQParK */
-/*TODO: Set relative units*/
-/* TODO: check sizes at productos.html*/
+/* TODO: check sizes at productos.html for small screens*/
 /*
 .sub-grid-img {
     display: block;
@@ -254,12 +253,16 @@ tbody tr:nth-of-type(odd) {
     100% { transform: translateX( -700px ); }
 }
 
+/*DEPRECATED - messing with margins*/
+/*TODO: delete*/
+/*
 .hr-prods {
     color:red;
     width: 30vw;
     margin-right:20vw;
     margin-left:20vw;
 }
+*/
 
 .hr-footer {
     margin-top: 5vw;
