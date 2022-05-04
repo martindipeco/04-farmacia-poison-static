@@ -253,17 +253,6 @@ tbody tr:nth-of-type(odd) {
     100% { transform: translateX( -700px ); }
 }
 
-/*DEPRECATED - messing with margins*/
-/*TODO: delete*/
-/*
-.hr-prods {
-    color:red;
-    width: 30vw;
-    margin-right:20vw;
-    margin-left:20vw;
-}
-*/
-
 .hr-footer {
     margin-top: 5vw;
     background-color: red;
