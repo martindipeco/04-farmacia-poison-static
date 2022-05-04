@@ -18,9 +18,9 @@ body {
 .about-us p {
     font-family: Times;
     color: Tomato;
-    font-size: 2em;
+    font-size: 1.5em;
     margin-right: 10vw;
-    margin-right: 10vw;
+    margin-left: 10vw;
 }
 
 /* Main grid containing 3 rows: navigation menu, main, footer */
