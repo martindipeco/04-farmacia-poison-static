@@ -294,7 +294,8 @@ tbody tr:nth-of-type(odd) {
 
 .form-box input[type=submit] {
     margin-top:2.5vw;
-    border-radius:
+    border-radius:0.5vw;
+    height: 6vw;
 }
 
 /*FOOTER*/
