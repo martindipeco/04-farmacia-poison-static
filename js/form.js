@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function()
             input2.style.backgroundColor = "red";
             document.querySelector("#feedback").innerHTML = "No coinciden";
             event.preventDefault();
+            alert("Verifique la contraseña ingresada");
         }
     });
 });
