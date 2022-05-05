@@ -268,7 +268,7 @@ tbody tr:nth-of-type(odd) {
 .form-box {
     background-color:  #001a00; /* #001a00 is a very dark green */
     border-radius: 1vw;
-    margin: 0.5vw 5vw 0.5vw 5vw;
+    margin: 0.5vw 5vw 2vw 5vw;
     padding: 0.5vw 5vw 3vw 5vw;
     text-align: left;
 }
