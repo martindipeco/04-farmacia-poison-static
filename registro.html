@@ -56,25 +56,29 @@
                             <input type="password" name="pass1" id="pass1" placeholder="*" maxlenght="20" required>
                         </div>
                         <!-- password match validated with JavaScript-->
-                        <label for="pass2">Repita Contraseña</label>
-                        <input type="password" name="pass2" id="pass2" placeholder="*" maxlenght="20" required>
-                        <p id="feedback"></p>
-                        <label for="nacimiento">Fecha de nacimiento</label>
-                        <input type="date" name="nacimiento" id="nacimiento">
-                        <br><br>
-                        <label for="sangre">Grupo y factor sanguíneo</label>
-                        <select name="grupo-sangre" id="grupo-sangre">
-                            <option value="Seleccione">Seleccione</option>
-                            <option value="0 +">0 +</option>
-                            <option value="0 -">0 -</option>
-                            <option value="A +">A +</option>
-                            <option value="A -">A -</option>
-                            <option value="B +">B +</option>
-                            <option value="B -">B -</option>
-                            <option value="AB +">AB +</option>
-                            <option value="AB -">AB -</option>
-                        </select>
-                        <br><br>
+                        <div class="form-box">
+                            <label for="pass2">Repita Contraseña</label>
+                            <input type="password" name="pass2" id="pass2" placeholder="*" maxlenght="20" required>
+                            <p id="feedback"></p>
+                        </div>
+                        <div class="form-box">
+                            <label for="nacimiento">Fecha de nacimiento</label>
+                            <input type="date" name="nacimiento" id="nacimiento">
+                        </div>
+                        <div class="form-box">
+                            <label for="sangre">Tipo de sangre</label>
+                            <select name="grupo-sangre" id="grupo-sangre">
+                                <option value="Seleccione">Seleccione</option>
+                                <option value="0 +">0 +</option>
+                                <option value="0 -">0 -</option>
+                                <option value="A +">A +</option>
+                                <option value="A -">A -</option>
+                                <option value="B +">B +</option>
+                                <option value="B -">B -</option>
+                                <option value="AB +">AB +</option>
+                                <option value="AB -">AB -</option>
+                            </select>
+                        </div>
                         <label for="documento">Documento</label>
                         <select name="tipo-doc" id="tipo-doc">
                             <option value="Seleccione">Seleccione</option>
