@@ -266,7 +266,8 @@ tbody tr:nth-of-type(odd) {
 
 /*REGISTER*/
 .form-box {
-    background-color: veryDarkGreen
+    background-color: DarkGreen;
+    border-radius: 5vw;
 }
 
 /*FOOTER*/
