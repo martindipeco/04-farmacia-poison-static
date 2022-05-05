@@ -293,7 +293,8 @@ tbody tr:nth-of-type(odd) {
 }
 
 .form-box input[type=submit] {
-    margin-top:5vw;
+    margin-top:2.5vw;
+    border-radius:
 }
 
 /*FOOTER*/
