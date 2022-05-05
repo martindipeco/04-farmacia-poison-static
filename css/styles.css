@@ -264,6 +264,12 @@ tbody tr:nth-of-type(odd) {
     100% { transform: translateX( -700px ); }
 }
 
+/*REGISTER*/
+.form-box {
+    background-color: veryDarkGreen
+}
+
+/*FOOTER*/
 .hr-footer {
     margin-top: 5vw;
     background-color: red;
