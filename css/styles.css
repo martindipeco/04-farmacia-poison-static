@@ -201,7 +201,7 @@ table td {
 }
 
 tbody tr:nth-of-type(odd) {
-    background-color: #001a00; /* #001a00 is a dark green. Previosuly: rgb(179, 208, 255, 0.3) */
+    background-color: #001a00; /* #001a00 is a very dark green. Previosuly: rgb(179, 208, 255, 0.3) */
 }
 
 /* SLIDES */
@@ -266,8 +266,9 @@ tbody tr:nth-of-type(odd) {
 
 /*REGISTER*/
 .form-box {
-    background-color: DarkGreen;
-    border-radius: 5vw;
+    background-color:  #001a00; /* #001a00 is a very dark green */
+    border-radius: 1vw;
+    margin: 0.5vw 10vw 0.5vw 10vw;
 }
 
 /*FOOTER*/
