@@ -273,6 +273,10 @@ tbody tr:nth-of-type(odd) {
     text-align: left;
 }
 
+.form-box input {
+    width: 100%;
+}
+
 /*FOOTER*/
 .hr-footer {
     margin-top: 5vw;
