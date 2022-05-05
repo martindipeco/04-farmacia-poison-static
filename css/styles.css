@@ -297,6 +297,7 @@ tbody tr:nth-of-type(odd) {
     border-radius:0.5vw;
     height: 6vw;
     color: red;
+    font-size: bold;
 }
 
 /*FOOTER*/
