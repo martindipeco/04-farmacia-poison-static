@@ -278,6 +278,10 @@ tbody tr:nth-of-type(odd) {
     margin-top: 1vw;
 }
 
+.form-box select {
+    margin-top: 1vw;
+}
+
 /*FOOTER*/
 .hr-footer {
     margin-top: 5vw;
