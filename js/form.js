@@ -17,8 +17,9 @@ document.addEventListener("DOMContentLoaded", function()
             // erasing autofocus from name and setting to password 1 (ver javascript 5) -
             //https://www.w3schools.com/jsref/prop_text_autofocus.asp & https://www.w3schools.com/tags/att_input_autofocus.asp
             //TODO: clear both fields?
-            //TODO: stop showing #feedback
+            //TODO: stop showing #feedback (warning time out)
             //TODO: set background to normal again
+            // https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
         }
     });
 });
