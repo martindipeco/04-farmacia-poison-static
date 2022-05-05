@@ -285,7 +285,8 @@ tbody tr:nth-of-type(odd) {
 
 .form-box textarea {
     background-color: LightGrey;
-    
+    margin-top: 1vw;
+    width: 100%;
 }
 
 /*FOOTER*/
