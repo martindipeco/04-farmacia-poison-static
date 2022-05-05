@@ -94,36 +94,43 @@
                             <input type="number" name="num_de_doc" id="num_de_doc" maxlenght="10">
                         </div>
                         <div class="form-box">
+                            <!--TODO align properly or replace x select-->
                             <p>Género</p>
                             <label for="masculino">
-                                <input type="radio" name="genero" id="masculino" value="M">M
+                                <input type="radio" name="genero" id="masculino" value="M">Masculino
                             </label>
                                 <label for="femenino">
-                                <input type="radio" name="genero" id="femenino" value="F">F
+                                <input type="radio" name="genero" id="femenino" value="F">Femenino
                             </label>
                             <label for="otro">
-                                <input type="radio" name="genero" id="otro" value="X">*
+                                <input type="radio" name="genero" id="otro" value="X">Otro
                             </label>
                         </div>
-                        <label for="cobertura">Cobertura médica</label>
-                        <input type="text" name="cobertura" id="cobertura" placeholder="Obra social / Prepaga" maxlength="20">
-                        <br><br>
-                        <label for="num_de_afi">Número de afiliado/a</label>
-                        <input type="number" name="num_de_afi" id="num_de_afi" maxlenght="10">
-                        <br><br>
-                        <label for="destino">Destino final</label>
-                        <select name="cementerio" id="cementerio">
-                            <option value="seleccione">Seleccione</option>
-                            <option value="Recoleta">Recoleta</option>
-                            <option value="Chacarita">Chacarita</option>
-                            <option value="Flores">Flores</option>
-                        </select>
-                        <br><br>
-                        <label for="comentarios">Déjenos su comentario</label>
-                        <br>
-                        <textarea name="comentario" id="comentario" maxlength="260"></textarea>
-                        <br><br>
+                        <div class="form-box">
+                            <label for="cobertura">Cobertura médica</label>
+                            <input type="text" name="cobertura" id="cobertura" placeholder="Obra social / Prepaga" maxlength="20">
+                        </div>
+                        <div class="form-box">
+                            <label for="num_de_afi">Número de afiliado/a</label>
+                            <input type="number" name="num_de_afi" id="num_de_afi" maxlenght="10">
+                        </div>
+                        <div class="form-box">
+                            <label for="destino">Destino final</label>
+                            <select name="cementerio" id="cementerio">
+                                <option value="seleccione">Seleccione</option>
+                                <option value="Recoleta">Recoleta</option>
+                                <option value="Chacarita">Chacarita</option>
+                                <option value="Flores">Flores</option>
+                            </select>
+                        </div>
+                        <div class="form-box">
+                            <label for="comentarios">Déjenos su comentario</label>
+                            <br>
+                            <textarea name="comentario" id="comentario" maxlength="260"></textarea>
+                        </div>
+                        <div class="form-box">
                         <input type="submit" id="check" value="Enviar">
+                        </div>
                     </form>
                 </div>
             </main>
