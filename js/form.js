@@ -6,14 +6,11 @@ document.addEventListener("DOMContentLoaded", function()
     {
         let input1 = document.querySelector("#pass1");
         let input2 = document.querySelector("#pass2");
-        if (input1 == input2)
-        {
-            document.querySelector("#feedback").innerHTML = "Correcto";
-        }
-        else
+        if (input2 !== input1)
         {
             input2.style.backgroundColor = "red";
             document.querySelector("#feedback").innerHTML = "No coinciden";
+            document.preventDefault()
         }
     });
 });
