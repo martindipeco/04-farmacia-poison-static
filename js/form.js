@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function()
 {
     // Validating password match
-    document.querySelector("#check").addEventListener("click", function()
+    document.querySelector("#check").addEventListener("click", function(event)
     {
         let input1 = document.querySelector("#pass1");
         let input2 = document.querySelector("#pass2");
@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function()
         {
             input2.style.backgroundColor = "red";
             document.querySelector("#feedback").innerHTML = "No coinciden";
-            document.preventDefault()
+            event.preventDefault();
         }
     });
 });
