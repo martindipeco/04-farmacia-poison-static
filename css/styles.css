@@ -283,6 +283,11 @@ tbody tr:nth-of-type(odd) {
     margin-top: 1vw;
 }
 
+.form-box textarea {
+    background-color: LightGrey;
+    
+}
+
 /*FOOTER*/
 .hr-footer {
     margin-top: 5vw;
