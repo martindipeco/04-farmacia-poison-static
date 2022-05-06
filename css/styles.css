@@ -187,6 +187,7 @@ ul {
 /*TABLE*/
 table {
     border: 0.1vw solid red;
+    border-radius: 1vw;
     background-color: transparent;
     margin-right: auto;
     margin-left: auto;
@@ -207,15 +208,7 @@ tbody tr:nth-of-type(odd) {
 /* SLIDES */
 /* CSS Slider adapted from https://codepen.io/flatpixels/pen/qQParK */
 /* TODO: check sizes at productos.html for small screens*/
-/*
-.sub-grid-img {
-    display: block;
-    max-width: 400px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-*/
+
 .card {
     position: relative;
     width: 400px;
