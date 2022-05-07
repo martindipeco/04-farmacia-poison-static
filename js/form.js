@@ -21,5 +21,8 @@ document.addEventListener("DOMContentLoaded", function()
             //TODO: set background to normal again
             // https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
         }
+        else {
+            alert("Muchas gracias, su registro se completó exitosamente. A la brevedad nos estaremos contactando con usted");
+        }
     });
 });
