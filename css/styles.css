@@ -388,4 +388,7 @@ footer {
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 50% 50%;
     }
+    /* Texto "sobre nosotros" en Index con más márgenes*/
+    .about-us p {
+        margin-right: 10vw;
 }
