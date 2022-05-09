@@ -282,7 +282,6 @@ tbody tr:nth-of-type(odd) {
 .form-box input[type=submit] {
     margin-top:2.5vw;
     border-radius:0.5vw;
-    height: 5.5vw;
     color: red;
     font-size: 1.4em;
 }
