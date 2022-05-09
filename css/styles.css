@@ -84,6 +84,7 @@ body {
     font-weight: bold;
     font-size: 1.5em;
     overflow: hidden;
+    /* add position: sticky; to fix its position ? */
 }
 
 /* Style the links inside the navigation bar */
