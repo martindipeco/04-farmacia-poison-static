@@ -394,6 +394,12 @@ footer {
         margin-right: 15vw;
         margin-left: 15vw;
     }
-    /* Imagen fachada y gmap 
+    /* Imagen fachada y gmap con más margen */
+    #fachada {
+        width: 70 vw;
+    }
+    #gmap {
+        width: 70vw;
+    }
 
 }
