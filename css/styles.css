@@ -163,7 +163,7 @@ table td {
 }
 
 tbody tr:nth-of-type(odd) {
-    background-color: #001a00; /* #001a00 is a very dark green. Previosuly: rgb(179, 208, 255, 0.3) */
+    background-color: #001a00; /* verde muy oscuro */
 }
 
 /* SLIDES */
