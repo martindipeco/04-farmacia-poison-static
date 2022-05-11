@@ -25,66 +25,28 @@ body {
     margin-left: 10vw;
 }
 
-/* Main grid containing 3 rows: navigation menu, main, footer */
+/* Main grid - 3 rows: navigation menu, main, footer */
 .grid-prox, .grid-index, .grid-time, .grid-reg {
     display: grid;
     grid-template-rows: auto auto auto;
 }
 
-/* "Productos has an extra row for slides */
+/* "Productos - 4 rows x slides */
 .grid-prod {
     display: grid;
     grid-template-rows: auto auto auto auto;
 }
 
-/* old nav bar link, icons, etc*/
-/* TODO: delete */
-/*
-#nav-bar {
-    margin: 1vw;
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-}
-
-#nav-bar a {
-    float:left;
-    display: block;
-    text-align: center;
-}
-
-.nav-link-text {
-    font-weight: bold;
-    font-size: 1.5 em;
-    margin: 1vw;
-}
-
-.nav-link-logo {
-    margin: 1vw;
-}
-
-.nav-link-logo-cart {
-    padding-top: 0.3vw;
-}
-
-.cart:hover, .mail:hover, .fb:hover, .tw:hover, .gh:hover {
-    fill: white;
-}
-
-.cart, .mail {
-    fill: red;
-    width: 1.4em;
-}
-*/
 
 /* Top navigation responsive menu */
 /* Responsive Top Navigation Menu adapted from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
+
 .nav-bar-resp {
     background-color: #001a00; /* dark green */
     font-weight: bold;
     font-size: 1.5em;
     overflow: hidden;
-    /* add position: sticky; to fix its position ? */
+    /* TODO: add position: sticky; to fix its position ?? */
 }
 
 /* Style the links inside the navigation bar */
