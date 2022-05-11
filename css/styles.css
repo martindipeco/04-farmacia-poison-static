@@ -84,8 +84,6 @@ body {
 }
 
 /*IMAGES*/
-/* set sepia filter on all images */
-/* intentionally old-fashioned, wasted, creepy */
 img {
     filter: sepia(75%);
     border: 0.8vw solid white;
