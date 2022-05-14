@@ -18,7 +18,6 @@ document.addEventListener("DOMContentLoaded", function()
             valid.preventDefault();
             alert("Por favor ingrese su nombre");
         }
-        nombre.style.backgroundColor = "grey";
         else if (apellido.value == "")
         {
             apellido.style.backgroundColor = "red";
