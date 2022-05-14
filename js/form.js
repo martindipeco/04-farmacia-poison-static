@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function()
         else if (pass1.value == "")
         {
             pass1.style.backgroundColor = "red";
-            document.querySelector("#feedback-p").innerHTML = "Complete este campo";
+            document.querySelector("#feedback-p1").innerHTML = "Complete este campo";
             //TODO: Hacer que desaparezca ese estilo luego de ingresar correctamente
             valid.preventDefault();
             alert("Por favor ingrese una contraseña");
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function()
         else if (pass2.value == "")
         {
             pass2.style.backgroundColor = "red";
-            document.querySelector("#feedback-p").innerHTML = "Complete este campo";
+            document.querySelector("#feedback-p2").innerHTML = "Complete este campo";
             //TODO: Hacer que desaparezca ese estilo luego de ingresar correctamente
             valid.preventDefault();
             alert("Por favor repita la contraseña");
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function()
         {
             pass1.style.backgroundColor = "red";
             pass2.style.backgroundColor = "red";
-            document.querySelector("#feedback-p").innerHTML = "No coinciden";
+            document.querySelector("#feedback-p2").innerHTML = "No coinciden";
             valid.preventDefault();
             alert("Verifique la contraseña ingresada");
             //TODO: replace x focus on password
