@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function()
             valid.preventDefault();
             alert("Por favor ingrese su nombre");
         }
-        if (pass2.value !== pass1.value)
+        else if (pass2.value !== pass1.value)
         {
             pass1.style.backgroundColor = "red";
             pass2.style.backgroundColor = "red";
