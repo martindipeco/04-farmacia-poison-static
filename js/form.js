@@ -15,6 +15,7 @@ document.addEventListener("DOMContentLoaded", function()
         {
             nombre.style.backgroundColor = "red";
             document.querySelector("#feedback-n").innerHTML = "Complete este campo";
+            //TODO: Hacer que desaparezca ese estilo luego de ingresar correctamente
             valid.preventDefault();
             alert("Por favor ingrese su nombre");
         }
@@ -22,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function()
         {
             apellido.style.backgroundColor = "red";
             document.querySelector("#feedback-a").innerHTML = "Complete este campo";
+            //TODO: Hacer que desaparezca ese estilo luego de ingresar correctamente
             valid.preventDefault();
             alert("Por favor ingrese su apellido");
         }
@@ -29,6 +31,7 @@ document.addEventListener("DOMContentLoaded", function()
         {
             email.style.backgroundColor = "red";
             document.querySelector("#feedback-e").innerHTML = "Complete este campo";
+            //TODO: Hacer que desaparezca ese estilo luego de ingresar correctamente
             valid.preventDefault();
             alert("Por favor ingrese su email");
         }
