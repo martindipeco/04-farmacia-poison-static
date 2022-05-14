@@ -20,14 +20,14 @@ document.addEventListener("DOMContentLoaded", function()
         }
         else if (apellido.value == "")
         {
-            nombre.style.backgroundColor = "red";
+            apellido.style.backgroundColor = "red";
             document.querySelector("#feedback-a").innerHTML = "Complete este campo";
             valid.preventDefault();
             alert("Por favor ingrese su apellido");
         }
         else if (email.value == "")
         {
-            nombre.style.backgroundColor = "red";
+            email.style.backgroundColor = "red";
             document.querySelector("#feedback-e").innerHTML = "Complete este campo";
             valid.preventDefault();
             alert("Por favor ingrese su email");
