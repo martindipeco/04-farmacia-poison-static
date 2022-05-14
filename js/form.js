@@ -1,16 +1,25 @@
 // Run Script once DOM is loaded
 document.addEventListener("DOMContentLoaded", function()
 {
-    // Validating password match
+    // Validar campos vacíos y coincidencia de contraseña
     document.querySelector("#check").addEventListener("click", function(mismatch)
     {
-        let input1 = document.querySelector("#pass1");
-        let input2 = document.querySelector("#pass2");
-        
-        if (input2.value !== input1.value)
+        // Leer variables ingresadas en cada campo
+        let nombre = document.querySelector("#nombre");
+        let apellido = document.querySelector("#apellido");
+        let email = document.querySelector("#email");
+        let pass1 = document.querySelector("#pass1");
+        let pass2 = document.querySelector("#pass2");
+        // Chequear que los campos no estén vacíos
+        if (nombre.value == "")
         {
-            input1.style.backgroundColor = "red";
-            input2.style.backgroundColor = "red";
+            nombre.style.backgroundColor = "red";
+            document.querySelector("#feedback").innerHTML = "Complete este campo";
+        }
+        if (pass2.value !== pass1.value)
+        {
+            pass1.style.backgroundColor = "red";
+            pass2.style.backgroundColor = "red";
             document.querySelector("#feedback").innerHTML = "No coinciden";
             mismatch.preventDefault();
             alert("Verifique la contraseña ingresada");
