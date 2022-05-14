@@ -35,6 +35,7 @@ document.addEventListener("DOMContentLoaded", function()
             valid.preventDefault();
             alert("Por favor ingrese su email");
         }
+        else if (email.value)
         else if (pass1.value == "")
         {
             pass1.style.backgroundColor = "red";
