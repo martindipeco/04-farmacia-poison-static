@@ -48,6 +48,11 @@ document.addEventListener("DOMContentLoaded", function()
             // https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
         }
         else {
+            nombre.style.backgroundColor = "grey";
+            apellido.style.backgroundColor = "grey";
+            email.style.backgroundColor = "grey";
+            pass1.style.backgroundColor = "grey";
+            pass2.style.backgroundColor = "grey";
             alert("Muchas gracias, su registro se completó exitosamente. A la brevedad nos estaremos contactando con usted");
             //TODO: Replace x `Muchas gracias, ${Nombre} ${Apellido}. A la brevedad nos estaremos contactando con usted`
         }
