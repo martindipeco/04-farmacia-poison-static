@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function()
     {
         let input1 = document.querySelector("#pass1");
         let input2 = document.querySelector("#pass2");
+        
         if (input2.value !== input1.value)
         {
             input1.style.backgroundColor = "red";
