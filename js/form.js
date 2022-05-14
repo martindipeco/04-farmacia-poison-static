@@ -18,6 +18,7 @@ document.addEventListener("DOMContentLoaded", function()
             valid.preventDefault();
             alert("Por favor ingrese su nombre");
         }
+        nombre.style.backgroundColor = "grey";
         else if (apellido.value == "")
         {
             apellido.style.backgroundColor = "red";
@@ -48,7 +49,6 @@ document.addEventListener("DOMContentLoaded", function()
             // https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
         }
         else {
-            nombre.style.backgroundColor = "grey";
             apellido.style.backgroundColor = "grey";
             email.style.backgroundColor = "grey";
             pass1.style.backgroundColor = "grey";
