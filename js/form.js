@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", function()
         {
             nombre.style.backgroundColor = "red";
             document.querySelector("#feedback").innerHTML = "Complete este campo";
-            valid.preventDefault
+            valid.preventDefault();
+            alert("Por favor ingrese su nombre");
         }
         if (pass2.value !== pass1.value)
         {
