@@ -35,6 +35,22 @@ document.addEventListener("DOMContentLoaded", function()
             valid.preventDefault();
             alert("Por favor ingrese su email");
         }
+        else if (pass1.value == "")
+        {
+            pass1.style.backgroundColor = "red";
+            document.querySelector("#feedback-p").innerHTML = "Complete este campo";
+            //TODO: Hacer que desaparezca ese estilo luego de ingresar correctamente
+            valid.preventDefault();
+            alert("Por favor ingrese una contraseña");
+        }
+        else if (pass2.value == "")
+        {
+            pass2.style.backgroundColor = "red";
+            document.querySelector("#feedback-p").innerHTML = "Complete este campo";
+            //TODO: Hacer que desaparezca ese estilo luego de ingresar correctamente
+            valid.preventDefault();
+            alert("Por favor repita la contraseña");
+        }
         else if (pass2.value !== pass1.value)
         {
             pass1.style.backgroundColor = "red";
