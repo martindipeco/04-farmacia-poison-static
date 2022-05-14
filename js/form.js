@@ -35,7 +35,11 @@ document.addEventListener("DOMContentLoaded", function()
             valid.preventDefault();
             alert("Por favor ingrese su email");
         }
-        else if (email.value.includes("@" ))
+        else if (email.value.includes("@" && ".") == false)
+            email.style.backgroundColor = "red";
+            document.querySelector("#feedback-e").innerHTML = "Ingrese una dirección válida";
+            valid.preventDefault();
+            alert("Ingrese un email válido");
         else if (pass1.value == "")
         {
             pass1.style.backgroundColor = "red";
