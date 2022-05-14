@@ -14,15 +14,29 @@ document.addEventListener("DOMContentLoaded", function()
         if (nombre.value == "")
         {
             nombre.style.backgroundColor = "red";
-            document.querySelector("#feedback").innerHTML = "Complete este campo";
+            document.querySelector("#feedback-n").innerHTML = "Complete este campo";
             valid.preventDefault();
             alert("Por favor ingrese su nombre");
+        }
+        else if (apellido.value == "")
+        {
+            nombre.style.backgroundColor = "red";
+            document.querySelector("#feedback-a").innerHTML = "Complete este campo";
+            valid.preventDefault();
+            alert("Por favor ingrese su apellido");
+        }
+        else if (email.value == "")
+        {
+            nombre.style.backgroundColor = "red";
+            document.querySelector("#feedback-e").innerHTML = "Complete este campo";
+            valid.preventDefault();
+            alert("Por favor ingrese su email");
         }
         else if (pass2.value !== pass1.value)
         {
             pass1.style.backgroundColor = "red";
             pass2.style.backgroundColor = "red";
-            document.querySelector("#feedback").innerHTML = "No coinciden";
+            document.querySelector("#feedback-p").innerHTML = "No coinciden";
             valid.preventDefault();
             alert("Verifique la contraseña ingresada");
             //TODO: replace x focus on password
