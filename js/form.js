@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function()
 {
     // Validar campos vacíos y coincidencia de contraseña
-    document.querySelector("#check").addEventListener("click", function(mismatch)
+    document.querySelector("#check").addEventListener("click", function(valid)
     {
         // Leer variables ingresadas en cada campo
         let nombre = document.querySelector("#nombre");
@@ -15,13 +15,14 @@ document.addEventListener("DOMContentLoaded", function()
         {
             nombre.style.backgroundColor = "red";
             document.querySelector("#feedback").innerHTML = "Complete este campo";
+            valid.preventDefault
         }
         if (pass2.value !== pass1.value)
         {
             pass1.style.backgroundColor = "red";
             pass2.style.backgroundColor = "red";
             document.querySelector("#feedback").innerHTML = "No coinciden";
-            mismatch.preventDefault();
+            valid.preventDefault();
             alert("Verifique la contraseña ingresada");
             //TODO: replace x focus on password
             // erasing autofocus from name and setting to password 1 (ver javascript 5) -
