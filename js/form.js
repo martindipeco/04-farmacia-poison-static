@@ -41,7 +41,8 @@ document.addEventListener("DOMContentLoaded", function()
         }
         else {
             alert("Muchas gracias, su registro se completó exitosamente. A la brevedad nos estaremos contactando con usted");
-            //TODO: Replace x `Muchas gracias, ${Nombre} ${Apellido}. A la brevedad nos estaremos contactando con usted`
+            //TODO: Solo gatillar alert si nombre, apellido y mail están ok. 
+            //TODO: Reemplazar x `Muchas gracias, ${Nombre} ${Apellido}. A la brevedad nos estaremos contactando con usted`
         }
     });
 });
