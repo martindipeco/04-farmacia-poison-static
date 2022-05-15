@@ -1,3 +1,6 @@
+// Run Script once DOM is loaded
+document.addEventListener("DOMContentLoaded", function()
+{
     // Validar campos vacíos y coincidencia de contraseña
     document.querySelector("#check").addEventListener("click", function(valid)
     {
@@ -38,7 +41,8 @@
         }
         else {
             alert("Muchas gracias, su registro se completó exitosamente. A la brevedad nos estaremos contactando con usted");
-            //TODO: Solo gatillar alert si nombre, apellido y mail están ok.
+            //TODO: Solo gatillar alert si nombre, apellido y mail están ok. 
             //TODO: Reemplazar x `Muchas gracias, ${Nombre} ${Apellido}. A la brevedad nos estaremos contactando con usted`
         }
     });
+});
