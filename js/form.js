@@ -8,36 +8,7 @@ document.addEventListener("DOMContentLoaded", function()
         let pass1 = document.querySelector("#pass1");
         let pass2 = document.querySelector("#pass2");
         // Chequear que los campos no estén vacíos
-        if (nombre.value == "")
-        {
-            nombre.style.backgroundColor = "red";
-            document.querySelector("#feedback-n").innerHTML = "Complete este campo";
-            //TODO: Hacer que desaparezca ese estilo luego de ingresar correctamente
-            valid.preventDefault();
-            alert("Por favor ingrese su nombre");
-        }
-        else if (apellido.value == "")
-        {
-            apellido.style.backgroundColor = "red";
-            document.querySelector("#feedback-a").innerHTML = "Complete este campo";
-            //TODO: Hacer que desaparezca ese estilo luego de ingresar correctamente
-            valid.preventDefault();
-            alert("Por favor ingrese su apellido");
-        }
-        else if (email.value == "")
-        {
-            email.style.backgroundColor = "red";
-            document.querySelector("#feedback-e").innerHTML = "Complete este campo";
-            //TODO: Hacer que desaparezca ese estilo luego de ingresar correctamente
-            valid.preventDefault();
-            alert("Por favor ingrese su email");
-        }
-        else if (email.value.includes("@" && ".") == false)
-            email.style.backgroundColor = "red";
-            document.querySelector("#feedback-e").innerHTML = "Ingrese una dirección válida";
-            valid.preventDefault();
-            alert("Ingrese un email válido");
-        else if (pass1.value == "")
+        if (pass1.value == "")
         {
             pass1.style.backgroundColor = "red";
             document.querySelector("#feedback-p1").innerHTML = "Complete este campo";
