@@ -1,3 +1,6 @@
+// Run Script once DOM is loaded
+document.addEventListener("DOMContentLoaded", function()
+{
     // Validar campos vacíos y coincidencia de contraseña
     document.querySelector("#check").addEventListener("click", function(valid)
     {
@@ -42,3 +45,4 @@
             //TODO: Reemplazar x `Muchas gracias, ${Nombre} ${Apellido}. A la brevedad nos estaremos contactando con usted`
         }
     });
+});
