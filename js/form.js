@@ -37,7 +37,7 @@
             // https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault
         }
         else {
-            alert("Muchas gracias, su registro se completó exitosamente. A la brevedad nos estaremos contactando con usted");
+            alert("Muchas gracias, luego de chequear Nombre, Apellido y Email, nos estaremos contactando con usted");
             //TODO: Solo gatillar alert si nombre, apellido y mail están ok.
             //TODO: Reemplazar x `Muchas gracias, ${Nombre} ${Apellido}. A la brevedad nos estaremos contactando con usted`
         }
