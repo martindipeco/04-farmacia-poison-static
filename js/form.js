@@ -5,9 +5,6 @@ document.addEventListener("DOMContentLoaded", function()
     document.querySelector("#check").addEventListener("click", function(valid)
     {
         // Leer variables ingresadas en cada campo
-        let nombre = document.querySelector("#nombre");
-        let apellido = document.querySelector("#apellido");
-        let email = document.querySelector("#email");
         let pass1 = document.querySelector("#pass1");
         let pass2 = document.querySelector("#pass2");
         // Chequear que los campos no estén vacíos
