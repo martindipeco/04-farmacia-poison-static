@@ -140,10 +140,22 @@ h1 {
 
 /* Products list */
 ul {
+    padding-left: 0;
     font-family: Garamond, Times;
+    color: tomato;
+    font-size: 1.3em;
     list-style-position: inside;
     list-style-type: circle;
 }
+
+/* centrar descripción productos con respecto a imagenes incorporando un flex direction column
+se intentó pero se rompe la grilla*/
+/*.item-prod {
+    border: dotted red;
+    display: flex;
+    direction: column;
+}
+*/
 
 /*TABLE*/
 table {
@@ -361,6 +373,11 @@ footer {
     }
     #gmap {
         width: 70vw;
+    }
+    /* formulario de registro más pequeño y centrado, y no tan estirado */
+    .form-box {
+        width: 60vw;
+        position: center;
     }
 
 }
